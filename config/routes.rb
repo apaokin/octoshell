@@ -27,6 +27,8 @@ Octoshell::Application.routes.draw do
   mount Authentication::Engine, at: "/auth"
   mount Pack::Engine, at: "/pack"
   mount Announcements::Engine, :at => "/announcements"
+  mount Comments::Engine, at: "/comments"
+
 
   root "face/home#show"
 

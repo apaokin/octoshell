@@ -65,6 +65,12 @@ PATH
       sorcery
 
 PATH
+  remote: engines/comments
+  specs:
+    comments (0.0.1)
+      rails (~> 4.2.6)
+
+PATH
   remote: engines/core
   specs:
     core (0.0.1)
@@ -584,6 +590,7 @@ DEPENDENCIES
   bootstrap_form!
   capybara
   codeclimate-test-reporter
+  comments!
   config!
   core!
   database_cleaner

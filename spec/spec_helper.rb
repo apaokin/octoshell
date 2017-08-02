@@ -34,6 +34,9 @@ RSpec.configure do |config|
 
   Dir[Rails.root.join("engines/pack/spec/support/**/*.rb")].each { |f| require f }
   Dir[Rails.root.join("engines/pack/spec/factories/**/*.rb")].each { |f| require f }
+    Dir[Rails.root.join("engines/comments/spec/support/**/*.rb")].each { |f| require f }
+  Dir[Rails.root.join("engines/comments/spec/factories/**/*.rb")].each { |f| require f }
+
   config.treat_symbols_as_metadata_keys_with_true_values = true
 
   config.include FactoryGirl::Syntax::Methods

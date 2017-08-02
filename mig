@@ -1,0 +1,1 @@
+bin/rake comments:install:migrations && bin/rake db:migrate

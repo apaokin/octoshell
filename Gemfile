@@ -33,6 +33,7 @@ gem "statistics",     path: "engines/statistics"
 gem "wiki",           path: "engines/wiki"
 gem "announcements",  path: "engines/announcements"
 gem "pack",           path: "engines/pack"
+gem "comments",           path: "engines/comments"
 
 
 gem "config", github: 'railsconfig/config'
